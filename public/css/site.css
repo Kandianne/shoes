@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+}
+
+#songBox {
+	border-radius: 9px;
+	width: 160px;
+	margin: 30px;
+}
+
+#buttons {
+	margin-top: 6px;
+}
