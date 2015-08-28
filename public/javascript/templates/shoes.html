@@ -1,0 +1,22 @@
+<h1 id="main">Shoeland</h1>
+<button id="adding" class="text-center btn btn-lg btn-info" ng-click="vm.openCreateModal()">ADD SHOES TO WISHLIST</button>
+<div class="row text-center">
+	
+	<div class=" col-sm-3" ng-repeat="shoe in vm.playlist track by $index" id="shoeBox">
+		<div><img class="img img-rounded" src="{{shoe.image}}" height="99" width="130" />
+
+		</div>
+		<div>
+			<h3 id="shoeTitle">{{shoe.title}}</h3> - {{shoe.artist}}
+		</div>
+		<div id="buttons">
+			<button class="btn btn-warning" ng-click="vm.openEditModal($index)"><span class="glyphicon glyphicon-pencil"></span></button>
+			<button class="btn btn-danger" ng-click="vm.deleteShoe(shoe._id)"><span class="glyphicon glyphicon-trash"></span></button>
+			<button class="btn btn-info" ng-click="vm.openAddImage($index)"><span class="glyphicon glyphicon-picture"></span></button>
+		</div>
+
+	</div>
+
+</div>
+
+

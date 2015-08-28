@@ -1,7 +1,7 @@
-angular.module("app").controller("EditModalController", ["$modalInstance", "song", function($modalInstance, song){
-    var vm = this;
-    vm.song = song;
-    vm.editSong = function() {
-        $modalInstance.close(vm.song);
-    }
+angular.module("app").controller("EditModalController", ["$modalInstance", "shoe", function($modalInstance, shoe){
+	var vm = this;
+	vm.shoe = shoe;
+	vm.editShoe = function() {
+		$modalInstance.close(vm.shoe);
+	}
 }]);

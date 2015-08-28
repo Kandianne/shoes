@@ -15,7 +15,7 @@
 	function config($stateProvider, $urlStateProvider) {
 		.state("Home", {
 			url:"/",
-			templateUrl: "javascript/templates/songs.html",
+			templateUrl: "javascript/templates/shoes.html",
 			controller: "SongController",
 			controllerAs: "vm"
 		})

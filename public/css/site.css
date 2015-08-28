@@ -1,13 +1,44 @@
 body {
 	text-align: center;
+	background-image: url("https://myownphotoproject.files.wordpress.com/2012/09/273.jpg");
 }
 
-#songBox {
+.btn {
+	border-radius: 19px; 
+}
+
+.row {
+	margin: auto;
+	text-align: center;
+}
+
+#adding {
+	color: #333;
+	font-weight: bold;
+	box-shadow: 1px 2px 3px black;
+}
+
+#shoeBox {
 	border-radius: 9px;
 	width: 160px;
-	margin: 30px;
+	height: 200px;
+	margin: 39px;
+	box-shadow: 1px 3px 13px black;
+	background-color: white;
+	text-align: center;
 }
 
 #buttons {
 	margin-top: 6px;
+}
+
+#shoeTitle {
+	height: 30px;
+}
+
+#main {
+	text-shadow: 1px 3px 6px black;
+	font-weight: bold;
+	color: white;
+	font-size: 7.9em;
 }

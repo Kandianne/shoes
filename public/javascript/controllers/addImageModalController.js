@@ -1,7 +1,7 @@
-angular.module("app").controller("addImageController", ["$modalInstance", "song", function($modalInstance, song){
+angular.module("app").controller("addImageController", ["$modalInstance", "shoe", function($modalInstance, shoe){
 	var vm = this;
-	vm.song = song;
+	vm.shoe = shoe;
 	vm.addImage = function(){
-		$modalInstance.close(vm.song);
+		$modalInstance.close(vm.shoe);
 	}
 }])
